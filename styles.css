@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap');
+
+#gifs-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+#gif-container {
+    margin-top: 50px;
+}
+
+#gif-container img {
+    width: 300px;
+    height: 300px;
+}
